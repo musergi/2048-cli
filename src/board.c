@@ -138,7 +138,7 @@ int boardGetPossibleMoves(Board *board) {
                 if (has_empty_tile) {
                     move |= RIGHT_MOVE;
                 }
-                if (row != COL_COUNT - 1) {
+                if (column != COL_COUNT - 1) {
                     if (value == boardGetTile(board, row, last_non_zero)) {
                         move |= RIGHT_MOVE;
                     }
