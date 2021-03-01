@@ -18,6 +18,7 @@ int main() {
             displayOptions(options);
             move = getMove(options);
             boardApplyMove(&board, move);
+            boardAddRandom(&board);
         }
     }
 }

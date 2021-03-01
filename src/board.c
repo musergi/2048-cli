@@ -250,7 +250,6 @@ void boardApplyMove(Board *board, int move) {
             }
         }
     }
-    boardAddRandom(board);
 }
 
 void displayOptions(int options) {
